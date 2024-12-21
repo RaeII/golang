@@ -1,11 +1,13 @@
 package main
 
 import (
-	"fmt"
+	helloWorld "golang/src/utils/1_helloWorld"
+	variables "golang/src/utils/2_variables"
 )
 
 
 func main() {
-	fmt.Println("Hello world!")
+	variables.Variables()
+	helloWorld.DaleHelloWord()
 }
 
