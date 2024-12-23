@@ -5,8 +5,16 @@ import "fmt"
 // "x" pode ser acessado nivel pacote, o uso da marmota não pode ser usado fora de escopo
 var x = "dale"
 
-func Variables() {
+/*
 
+atribuição só pode ser executada dentro de um code block
+
+var y int
+y = 10
+
+*/
+
+func Variables() {
 	fmt.Printf("\n\n------------VARIABLES-----------\n\n");
 	
 	// ":=" declaração
