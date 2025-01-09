@@ -24,7 +24,20 @@ func Map() {
 
 	println("Toquinho ->", toquinhoAge,okToquinhoAge)
 	println("Xexe ->",xexeAge,okXexeAge)
+	print("\n\n")
 
+	//RANGE
+	for key,value := range dogsAge {
+		fmt.Println("dog ->",key,"idade ->",value)
+	}
 
+	print("\n\n")
+
+	//DELETAR
+	delete(dogsAge,"Toquinho")
+
+	for key,value := range dogsAge {
+		fmt.Println("dog ->",key,"idade ->",value)
+	}
 }
 
