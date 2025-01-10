@@ -12,12 +12,14 @@ import (
 	//makee "golang/src/utils/9_make"
 	//slicemult "golang/src/utils/10_sliceMult"
 	//subjacente "golang/src/utils/11_arraySubjacente"
-	maps "golang/src/utils/12_maps"
+	//maps "golang/src/utils/12_maps"
+	strucs "golang/src/utils/13_struct"
 )
 
 
 func main() {
-	maps.Map()
+	strucs.Struct()
+	//maps.Map()
 	//subjacente.Subjacente()
 	//slicemult.SliceMult()
 	//makee.Make()
