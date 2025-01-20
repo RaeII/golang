@@ -13,12 +13,14 @@ import (
 	//slicemult "golang/src/utils/10_sliceMult"
 	//subjacente "golang/src/utils/11_arraySubjacente"
 	//maps "golang/src/utils/12_maps"
-	strucs "golang/src/utils/13_struct"
+	//strucs "golang/src/utils/13_struct"
+	interfaces "golang/src/utils/14_interface"
 )
 
 
 func main() {
-	strucs.Struct()
+	interfaces.Interfaces()
+	//strucs.Struct()
 	//maps.Map()
 	//subjacente.Subjacente()
 	//slicemult.SliceMult()
